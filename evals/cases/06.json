@@ -1,0 +1,76 @@
+{
+  "id": "06",
+  "title": "Survey design: sample and instrument",
+  "section": "Methods",
+  "style": "APA 7",
+  "must_preserve": [
+    "May 2022",
+    "1,200",
+    "1,068",
+    "89.0%",
+    "58.4%",
+    "20.3",
+    "SD = 1.7",
+    "24 items",
+    "five-point Likert scale",
+    "0.87",
+    "six universities",
+    "Hubei Province",
+    "stratified random sampling",
+    "Cronbach's alpha"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'good reliability' must not be upgraded to 'excellent' or 'perfect'",
+      "forbid_regex": "\\b(excellent|perfect|outstanding|very high)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "6.1",
+      "type": "agreement",
+      "desc": "'1,068 valid questionnaires was received'",
+      "absent_regex": "questionnaires was received"
+    },
+    {
+      "id": "6.2",
+      "type": "punctuation",
+      "desc": "comma splice 'received, the valid rate is'",
+      "absent_regex": "received, the valid rate"
+    },
+    {
+      "id": "6.3",
+      "type": "word-choice",
+      "desc": "'20.3 years old'",
+      "absent_regex": "years old"
+    },
+    {
+      "id": "6.4",
+      "type": "agreement",
+      "desc": "'which show a good reliability'",
+      "absent_regex": "which show\\b"
+    },
+    {
+      "id": "6.5",
+      "type": "article",
+      "desc": "'a good reliability'",
+      "absent_regex": "a good reliability"
+    },
+    {
+      "id": "6.6",
+      "type": "tense",
+      "desc": "tense mixing 'is 0.87' (methods)",
+      "absent_regex": "scale is 0\\.87"
+    },
+    {
+      "id": "6.7",
+      "type": "word-choice",
+      "desc": "'contains 24 items'",
+      "absent_regex": "contains 24"
+    }
+  ],
+  "flag_only": [
+    "1,068/1,200 = 89.0% is consistent; the checker should not alter or recompute it. The tense choice is a style decision; either past or present is acceptable if consistent."
+  ]
+}

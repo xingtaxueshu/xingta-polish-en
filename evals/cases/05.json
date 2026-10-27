@@ -1,0 +1,68 @@
+{
+  "id": "05",
+  "title": "Barthes: dialogic engagement with a quoted text",
+  "section": "Dialogic citation",
+  "style": "Chicago notes-bibliography",
+  "must_preserve": [
+    "Barthes",
+    "\"the birth of the reader must be at the cost of the death of the Author.\"",
+    "[^1]",
+    "methodological move",
+    "metaphysical statement",
+    "\"death\"",
+    "Roland Barthes, \"The Death of the Author,\" in *Image—Music—Text*, trans. Stephen Heath (London: Fontana, 1977), 148."
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'more like ... than' hedge must stay",
+      "keep_regex": "more (like|a |of a )"
+    },
+    {
+      "id": "h2",
+      "desc": "'Some critics' must not become 'Most/All critics'",
+      "forbid_regex": "\\b(most|all|many) critics\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "5.1",
+      "type": "agreement",
+      "desc": "'seldom be analyzed'",
+      "absent_regex": "seldom be analy"
+    },
+    {
+      "id": "5.2",
+      "type": "agreement",
+      "desc": "'Some critics takes'",
+      "absent_regex": "critics takes"
+    },
+    {
+      "id": "5.3",
+      "type": "connector",
+      "desc": "comma splice 'important, however Barthes'",
+      "absent_regex": "important, however"
+    },
+    {
+      "id": "5.4",
+      "type": "word-choice",
+      "desc": "'did not say that so'",
+      "absent_regex": "that so\\b"
+    },
+    {
+      "id": "5.5",
+      "type": "agreement",
+      "desc": "'What he oppose'",
+      "absent_regex": "he oppose\\b"
+    },
+    {
+      "id": "5.6",
+      "type": "article",
+      "desc": "'single source of the meaning'",
+      "absent_regex": "the meaning"
+    }
+  ],
+  "flag_only": [
+    "Direct quotation and footnote must be byte-identical."
+  ]
+}

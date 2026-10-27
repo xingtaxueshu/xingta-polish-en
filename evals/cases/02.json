@@ -1,0 +1,83 @@
+{
+  "id": "02",
+  "title": "Cultural capital: theoretical framework",
+  "section": "Theoretical framework",
+  "style": "Chicago notes-bibliography",
+  "must_preserve": [
+    "Bourdieu",
+    "cultural capital",
+    "embodied state",
+    "objectified state",
+    "institutionalized state",
+    "[^1]",
+    "[^2]",
+    "Pierre Bourdieu, \"The Forms of Capital,\" in *Handbook of Theory and Research for the Sociology of Education*, ed. John G. Richardson (New York: Greenwood, 1986), 241–258.",
+    "Bourdieu, \"The Forms of Capital,\" 243."
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'mainly focus on the embodied cultural capital of the parents' (scope) must stay",
+      "keep_regex": "embodied cultural capital of the parents|parents'? embodied cultural capital"
+    }
+  ],
+  "issues": [
+    {
+      "id": "2.1",
+      "type": "word-choice",
+      "desc": "'bases on'",
+      "absent_regex": "bases on"
+    },
+    {
+      "id": "2.2",
+      "type": "agreement",
+      "desc": "'cultural capital exist'",
+      "absent_regex": "capital exist\\b"
+    },
+    {
+      "id": "2.3",
+      "type": "punctuation",
+      "desc": "comma splice in the three 'refers to' clauses",
+      "absent_regex": "state refers to the long-lasting dispositions of mind and body, the objectified"
+    },
+    {
+      "id": "2.4",
+      "type": "grammar-number",
+      "desc": "'academic qualification'",
+      "absent_regex": "academic qualification\\b(?!s)"
+    },
+    {
+      "id": "2.5",
+      "type": "word-choice",
+      "desc": "'three-fold'",
+      "absent_regex": "three-fold"
+    },
+    {
+      "id": "2.6",
+      "type": "vague",
+      "desc": "'very useful for our study'",
+      "absent_regex": "very useful"
+    },
+    {
+      "id": "2.7",
+      "type": "grammar-verb",
+      "desc": "'let us to distinguish'",
+      "absent_regex": "let us to"
+    },
+    {
+      "id": "2.8",
+      "type": "agreement",
+      "desc": "'a family possess ... a child ... acquire'",
+      "absent_regex": "family possess\\b|child actually acquire\\b"
+    },
+    {
+      "id": "2.9",
+      "type": "spelling-apostrophe",
+      "desc": "'it's influence'",
+      "absent_regex": "it's influence"
+    }
+  ],
+  "flag_only": [
+    "Footnote format (Chicago) must stay character-for-character; the 'we' / 'our' voice is the author's choice."
+  ]
+}

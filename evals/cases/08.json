@@ -1,0 +1,73 @@
+{
+  "id": "08",
+  "title": "Family income and reading time: results description",
+  "section": "Results",
+  "style": "APA 7",
+  "must_preserve": [
+    "Table 3",
+    "OLS",
+    "Column (1)",
+    "Column (2)",
+    "0.083",
+    "SE = 0.021",
+    "1% level",
+    "0.051",
+    "5% level",
+    "0.214",
+    "0.097",
+    "R²"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'obvious effect' is a causal-sounding claim from an OLS coefficient; must not be strengthened (e.g. 'strong causal effect')",
+      "forbid_regex": "\\b(strong|causal|substantial|dramatic) (causal )?effect\\b"
+    },
+    {
+      "id": "h2",
+      "desc": "'much higher' must not be inflated to 'dramatically/vastly'",
+      "forbid_regex": "\\b(dramatically|vastly|enormously)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "8.1",
+      "type": "word-choice",
+      "desc": "'the coefficient of family income'",
+      "absent_regex": "coefficient of family income"
+    },
+    {
+      "id": "8.2",
+      "type": "word-choice",
+      "desc": "'the controls of parents' education'",
+      "absent_regex": "controls of parents"
+    },
+    {
+      "id": "8.3",
+      "type": "grammar-be",
+      "desc": "'and still significant'",
+      "absent_regex": "and still significant"
+    },
+    {
+      "id": "8.4",
+      "type": "article",
+      "desc": "'a obvious effect'",
+      "absent_regex": "a obvious"
+    },
+    {
+      "id": "8.5",
+      "type": "article",
+      "desc": "'the family income has'",
+      "absent_regex": "the family income"
+    },
+    {
+      "id": "8.6",
+      "type": "comparison",
+      "desc": "'higher than Column (1), which is 0.097'",
+      "absent_regex": "than Column \\(1\\), which is"
+    }
+  ],
+  "flag_only": [
+    "'effect' / 'obvious' with a cross-sectional OLS coefficient: flag for author, suggest 'association' only as a question."
+  ]
+}

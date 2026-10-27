@@ -1,0 +1,58 @@
+{
+  "id": "04",
+  "title": "Poetry translation: argument progression",
+  "section": "Argument",
+  "style": "none (no citations)",
+  "must_preserve": [
+    "to some extent",
+    "re-creator",
+    "transmitter",
+    "too absolute"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'always regarded as impossible' is the author's characterisation of others' view; changing 'always' to 'often/sometimes' changes a claim — keep or ask",
+      "keep_regex": "always"
+    },
+    {
+      "id": "h2",
+      "desc": "'to some extent' hedge must stay",
+      "keep_regex": "to some extent"
+    },
+    {
+      "id": "h3",
+      "desc": "'Thus, poetry translation is possible' must not be strengthened to 'proves/demonstrates'",
+      "forbid_regex": "\\b(proves?|demonstrates?|undeniabl\\w+|definitively|clearly establishes)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "4.1",
+      "type": "article",
+      "desc": "'Translation of poetry'",
+      "absent_regex": "^Translation of poetry"
+    },
+    {
+      "id": "4.2",
+      "type": "register",
+      "desc": "'But we think that this view'",
+      "absent_regex": "^But we think|\\bBut we think"
+    },
+    {
+      "id": "4.3",
+      "type": "spelling",
+      "desc": "'can not'",
+      "absent_regex": "can not"
+    },
+    {
+      "id": "4.4",
+      "type": "connector",
+      "desc": "'Firstly/Secondly' + 'In a word'",
+      "absent_regex": "In a word"
+    }
+  ],
+  "flag_only": [
+    "'Thus, poetry translation is possible' does not follow from the two premises (no premise about 'possible' being defined). Must be FLAGGED in author questions, not repaired."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "10",
+  "title": "Limitations paragraph",
+  "section": "Discussion / limitations",
+  "style": "APA 7",
+  "must_preserve": [
+    "one province",
+    "self-reported",
+    "social desirability bias",
+    "cross-sectional",
+    "causal conclusions",
+    "longitudinal"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'maybe cause' must stay a possibility ('may cause'), not become 'causes'",
+      "forbid_regex": "\\b(causes|leads to|results in) (the )?social desirability"
+    },
+    {
+      "id": "h2",
+      "desc": "'limited' generalisation must not become 'not generalizable at all'",
+      "forbid_regex": "\\b(cannot be generalized|not generalizable|no generali[sz]ability)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "10.1",
+      "type": "grammar-clause",
+      "desc": "'limitations need to be mentioned'",
+      "absent_regex": "limitations need"
+    },
+    {
+      "id": "10.2",
+      "type": "grammar-number",
+      "desc": "'the generalization of the results'",
+      "absent_regex": "generalization of the results"
+    },
+    {
+      "id": "10.3",
+      "type": "word-choice",
+      "desc": "'maybe cause'",
+      "absent_regex": "maybe cause"
+    },
+    {
+      "id": "10.4",
+      "type": "article",
+      "desc": "'the social desirability bias'",
+      "absent_regex": "the social desirability bias"
+    },
+    {
+      "id": "10.5",
+      "type": "agreement",
+      "desc": "'design make us unable'",
+      "absent_regex": "design make\\b"
+    },
+    {
+      "id": "10.6",
+      "type": "grammar-number",
+      "desc": "'Future study can use'",
+      "absent_regex": "Future study"
+    },
+    {
+      "id": "10.7",
+      "type": "vague",
+      "desc": "'between them' (unclear antecedent)",
+      "absent_regex": "between them"
+    }
+  ],
+  "flag_only": [
+    "'between them' has no clear antecedent: polisher should ask the author, not guess the variables."
+  ]
+}

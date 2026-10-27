@@ -1,0 +1,73 @@
+{
+  "id": "03",
+  "title": "Digital literacy: concept definition",
+  "section": "Concept definition",
+  "style": "APA 7",
+  "must_preserve": [
+    "Gilster (1997)",
+    "digital literacy",
+    "\"create\"",
+    "find, evaluate, and create information",
+    "critical ability"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'an everyday activity of young people' must not become 'all young people' or 'the main activity'",
+      "forbid_regex": "\\b(all young people|every young person|main activity|only)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "3.1",
+      "type": "repetition",
+      "desc": "'different scholars from different perspective'",
+      "absent_regex": "different scholars from different perspective"
+    },
+    {
+      "id": "3.2",
+      "type": "grammar-number",
+      "desc": "'technical skill'",
+      "absent_regex": "technical skill\\b(?!s)"
+    },
+    {
+      "id": "3.3",
+      "type": "article",
+      "desc": "'operating the software and searching the information online'",
+      "absent_regex": "the software|the information online"
+    },
+    {
+      "id": "3.4",
+      "type": "agreement",
+      "desc": "'which include'",
+      "absent_regex": "which include\\b"
+    },
+    {
+      "id": "3.5",
+      "type": "redundancy",
+      "desc": "'by using'",
+      "absent_regex": "by using"
+    },
+    {
+      "id": "3.6",
+      "type": "word-choice",
+      "desc": "'add ... on it'",
+      "absent_regex": "on it\\b"
+    },
+    {
+      "id": "3.7",
+      "type": "redundancy",
+      "desc": "'The reason why ... is because that'",
+      "absent_regex": "reason why|because that"
+    },
+    {
+      "id": "3.8",
+      "type": "agreement",
+      "desc": "'creating content have'",
+      "absent_regex": "content have"
+    }
+  ],
+  "flag_only": [
+    "The justification for adding 'create' is the authors' argument; do not add supporting claims."
+  ]
+}

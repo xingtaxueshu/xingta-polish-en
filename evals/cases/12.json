@@ -1,0 +1,84 @@
+{
+  "id": "12",
+  "title": "Victorian novels: abstract",
+  "section": "Abstract",
+  "style": "none",
+  "must_preserve": [
+    "312",
+    "1850",
+    "1900",
+    "20 topics",
+    "12.5%",
+    "1850s",
+    "18.3%",
+    "1890s",
+    "topic modeling",
+    "domestic life",
+    "Victorian novel"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'need further examination' limitation must stay",
+      "keep_regex": "further (examination|examined|investigation|testing|study|scrutiny|verification)|examined further"
+    },
+    {
+      "id": "h2",
+      "desc": "'provides a new evidence' must not be inflated ('proves', 'overturns', 'revolutionary')",
+      "forbid_regex": "\\b(proves?|overturns?|revolution\\w+|groundbreaking|definitive)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "12.1",
+      "type": "agreement",
+      "desc": "'This paper use'",
+      "absent_regex": "paper use\\b"
+    },
+    {
+      "id": "12.2",
+      "type": "article",
+      "desc": "'text mining method'",
+      "absent_regex": "text mining method"
+    },
+    {
+      "id": "12.3",
+      "type": "tense",
+      "desc": "'has increased' (reporting results) / voice",
+      "absent_regex": "has increased from"
+    },
+    {
+      "id": "12.4",
+      "type": "tense",
+      "desc": "'gradually becomes'",
+      "absent_regex": "gradually becomes"
+    },
+    {
+      "id": "12.5",
+      "type": "grammar-number",
+      "desc": "'a new evidence'",
+      "absent_regex": "a new evidence"
+    },
+    {
+      "id": "12.6",
+      "type": "article",
+      "desc": "'for the literary historians'",
+      "absent_regex": "for the literary historians"
+    },
+    {
+      "id": "12.7",
+      "type": "agreement",
+      "desc": "'representativeness need'",
+      "absent_regex": "representativeness need\\b"
+    },
+    {
+      "id": "12.8",
+      "type": "vague",
+      "desc": "'in the period'",
+      "absent_regex": "in the period"
+    }
+  ],
+  "flag_only": [
+    "'domestic theme ... becomes the focus' over-reads a 12.5%→18.3% shift: flag as claim-strength question; do not rewrite the finding."
+  ]
+}

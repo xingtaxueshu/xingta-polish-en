@@ -1,0 +1,91 @@
+{
+  "id": "01",
+  "title": "Reading habits: literature review",
+  "section": "Literature review",
+  "style": "APA 7",
+  "must_preserve": [
+    "(Nation, 2001; Krashen, 2004)",
+    "Krashen (2004)",
+    "free voluntary reading",
+    "extensive reading",
+    "secondary school",
+    "China"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'the most important factor' is Krashen's claim as reported; must not be strengthened (e.g. 'the sole factor') or silently weakened",
+      "keep_regex": "most important factor"
+    },
+    {
+      "id": "h2",
+      "desc": "'still very rare' must not become 'nonexistent / no studies'",
+      "forbid_regex": "\\b(no studies|nonexistent|absent|never)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "1.1",
+      "type": "opening-cliche",
+      "desc": "'With the development of society, more and more scholars pay attention to'",
+      "absent_regex": "With the development of society"
+    },
+    {
+      "id": "1.2",
+      "type": "grammar-noun",
+      "desc": "'Many researches' (uncountable noun)",
+      "absent_regex": "Many researches"
+    },
+    {
+      "id": "1.3",
+      "type": "word-choice",
+      "desc": "'is helpful to vocabulary growth'",
+      "absent_regex": "helpful to"
+    },
+    {
+      "id": "1.4",
+      "type": "agreement",
+      "desc": "'he also point out'",
+      "absent_regex": "also point out\\b"
+    },
+    {
+      "id": "1.5",
+      "type": "agreement",
+      "desc": "'students who reads more gets'",
+      "absent_regex": "who reads|reads more gets"
+    },
+    {
+      "id": "1.6",
+      "type": "agreement",
+      "desc": "'few studies has examined'",
+      "absent_regex": "studies has"
+    },
+    {
+      "id": "1.7",
+      "type": "agreement",
+      "desc": "'the reading habits changes'",
+      "absent_regex": "habits changes"
+    },
+    {
+      "id": "1.8",
+      "type": "grammar-gerund",
+      "desc": "'after students entering'",
+      "absent_regex": "students entering"
+    },
+    {
+      "id": "1.9",
+      "type": "word-choice",
+      "desc": "'fill in this gap'",
+      "absent_regex": "fill in this gap"
+    },
+    {
+      "id": "1.10",
+      "type": "grammar-number",
+      "desc": "'the study on this topic ... very rare'",
+      "absent_regex": "the study on this topic"
+    }
+  ],
+  "flag_only": [
+    "The sentence 'few studies ... In China, the study ... very rare' is an unsupported existence claim: ask author for sources, do not alter."
+  ]
+}

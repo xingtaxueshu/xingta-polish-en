@@ -1,0 +1,75 @@
+{
+  "id": "09",
+  "title": "Interview coding: inter-coder reliability",
+  "section": "Methods",
+  "style": "APA 7",
+  "must_preserve": [
+    "NVivo 12",
+    "Cohen's kappa",
+    "0.71",
+    "substantial agreement",
+    "(Landis & Koch, 1977)",
+    "43 codes",
+    "7 themes",
+    "inter-coder reliability"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'may be over-estimated' hedge must stay (not 'is over-estimated' / removed)",
+      "keep_regex": "may be (over-?estimated|overestimated)|may (have been )?(over-?estimate|overestimate)|might"
+    },
+    {
+      "id": "h2",
+      "desc": "'substantial agreement' must not become 'excellent/perfect'",
+      "forbid_regex": "\\b(excellent|perfect|almost perfect)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "9.1",
+      "type": "redundancy",
+      "desc": "'by using NVivo 12'",
+      "absent_regex": "by using"
+    },
+    {
+      "id": "9.2",
+      "type": "article",
+      "desc": "'between two coders'",
+      "absent_regex": "between two coders"
+    },
+    {
+      "id": "9.3",
+      "type": "agreement",
+      "desc": "'The disagreements was'",
+      "absent_regex": "disagreements was"
+    },
+    {
+      "id": "9.4",
+      "type": "agreement",
+      "desc": "'the codebook were'",
+      "absent_regex": "codebook were"
+    },
+    {
+      "id": "9.5",
+      "type": "register",
+      "desc": "'we got 43 codes'",
+      "absent_regex": "we got"
+    },
+    {
+      "id": "9.6",
+      "type": "tense",
+      "desc": "'which are grouped into 7 themes'",
+      "absent_regex": "which are grouped"
+    },
+    {
+      "id": "9.7",
+      "type": "spelling-hyphen",
+      "desc": "'over-estimated'",
+      "absent_regex": "over-estimated"
+    }
+  ],
+  "flag_only": [
+    "Reliability concern (authors are the coders) is stated by the author: keep as is."
+  ]
+}

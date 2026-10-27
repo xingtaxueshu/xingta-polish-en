@@ -1,0 +1,71 @@
+{
+  "id": "11",
+  "title": "Online museum exhibitions: introduction",
+  "section": "Introduction",
+  "style": "none",
+  "must_preserve": [
+    "three provincial museums",
+    "narrative strategies",
+    "online exhibitions",
+    "grown rapidly"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'few research' must not become 'no research'",
+      "forbid_regex": "\\b(no research|no studies|nobody|none)\\b"
+    },
+    {
+      "id": "h2",
+      "desc": "'grown rapidly' must not be quantified ('doubled', 'surged')",
+      "forbid_regex": "\\b(doubled|tripled|surged|skyrocketed|exploded)\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "11.1",
+      "type": "opening-cliche",
+      "desc": "'With the rapid development of digital technology, ... more and more important'",
+      "absent_regex": "With the rapid development|more and more important"
+    },
+    {
+      "id": "11.2",
+      "type": "noun-stack",
+      "desc": "'the number of the visitors of online exhibition'",
+      "absent_regex": "the number of the visitors of online exhibition"
+    },
+    {
+      "id": "11.3",
+      "type": "article",
+      "desc": "'launched the online exhibition'",
+      "absent_regex": "the online exhibition,"
+    },
+    {
+      "id": "11.4",
+      "type": "grammar-clause",
+      "desc": "'there is few research discuss'",
+      "absent_regex": "few research discuss|there is few"
+    },
+    {
+      "id": "11.5",
+      "type": "empty-phrase",
+      "desc": "'it is of great significance to'",
+      "absent_regex": "of great significance"
+    },
+    {
+      "id": "11.6",
+      "type": "word-choice",
+      "desc": "'takes ... for example'",
+      "absent_regex": "for example"
+    },
+    {
+      "id": "11.7",
+      "type": "agreement",
+      "desc": "'and analyze the narrative strategies'",
+      "absent_regex": "and analyze\\b"
+    }
+  ],
+  "flag_only": [
+    "'Recently, many museums have launched' is an unsourced claim — leave. 'few research' is an existence claim to flag for a citation."
+  ]
+}

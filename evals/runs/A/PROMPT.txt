@@ -1,0 +1,1 @@
+A group prompt (verbatim for every case): "Polish this academic paragraph." — no further instruction. Output = polished text only.

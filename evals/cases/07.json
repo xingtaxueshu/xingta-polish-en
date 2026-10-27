@@ -1,0 +1,76 @@
+{
+  "id": "07",
+  "title": "Reading program: difference-in-differences",
+  "section": "Methods and results",
+  "style": "APA 7",
+  "must_preserve": [
+    "difference-in-differences",
+    "3.42",
+    "p < 0.01",
+    "0.15 standard deviations",
+    "2019",
+    "parallel trends assumption",
+    "event-study",
+    "Figure 2",
+    "school-level covariates",
+    "not randomly assigned"
+  ],
+  "hedges": [
+    {
+      "id": "h1",
+      "desc": "'we should be cautious' caveat must stay",
+      "keep_regex": "cautio"
+    },
+    {
+      "id": "h2",
+      "desc": "'is supported by' must not become 'proved/confirmed/verified'",
+      "forbid_regex": "\\b(proved?|proves|confirmed|verified|validated)\\b"
+    },
+    {
+      "id": "h3",
+      "desc": "'robust' must not become 'fully/completely robust'",
+      "forbid_regex": "\\b(fully|completely|entirely|perfectly) robust\\b"
+    }
+  ],
+  "issues": [
+    {
+      "id": "7.1",
+      "type": "agreement",
+      "desc": "'design which compare'",
+      "absent_regex": "which compare\\b"
+    },
+    {
+      "id": "7.2",
+      "type": "word-choice",
+      "desc": "'the change of reading scores'",
+      "absent_regex": "change of reading scores"
+    },
+    {
+      "id": "7.3",
+      "type": "agreement",
+      "desc": "'The result are'",
+      "absent_regex": "result are\\b"
+    },
+    {
+      "id": "7.4",
+      "type": "article",
+      "desc": "'the school-level covariates'",
+      "absent_regex": "the school-level covariates"
+    },
+    {
+      "id": "7.5",
+      "type": "register",
+      "desc": "'But we should'",
+      "absent_regex": "\\bBut we should"
+    },
+    {
+      "id": "7.6",
+      "type": "preposition",
+      "desc": "'cautious on causal interpretation'",
+      "absent_regex": "cautious on"
+    }
+  ],
+  "flag_only": [
+    "'the program increases ... by 3.42 points' (causal verb) vs the later caution that assignment was not random: tension. Flag, do not soften or strengthen on the author's behalf."
+  ]
+}
