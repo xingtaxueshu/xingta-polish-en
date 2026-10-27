@@ -29,6 +29,7 @@ NUM_WORDS = {
 
 FOOTNOTE_RE = re.compile(r"\[\^?[\w-]+\]")
 NUM_RE = re.compile(r"(?<![\w.])\d+(?:,\d{3})*(?:\.\d+)?(?:%|s\b)?")
+FOLD_RE = re.compile(r"\b(?:two|three|four|five|six|seven|eight|nine|ten)[- ]?fold\b", re.I)  # threefold/three-fold 不算数字
 WORD_NUM_RE = re.compile(r"\b(" + "|".join(NUM_WORDS) + r")\b", re.I)
 PAREN_CITE_RE = re.compile(r"\((?:see |cf\. |e\.g\., )?[A-Z][^()]*?\d{4}[a-z]?[^()]*\)")
 NARR_CITE_RE = re.compile(
@@ -44,7 +45,7 @@ def norm_ws(s):
 
 
 def extract_numbers(text):
-    t = FOOTNOTE_RE.sub(" ", text)
+    t = FOLD_RE.sub(" ", FOOTNOTE_RE.sub(" ", text))
     out = [m.group(0).replace(",", "") for m in NUM_RE.finditer(t)]
     out += [NUM_WORDS[m.group(1).lower()] for m in WORD_NUM_RE.finditer(t)]
     return Counter(out)

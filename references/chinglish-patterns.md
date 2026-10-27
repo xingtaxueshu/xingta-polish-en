@@ -64,4 +64,11 @@
 39. more and more → increasingly（仅在不改强度时使用） → 书面语。
 40. we got 43 codes → we generated 43 codes（或 43 codes were generated） → got 偏口语；generated 是否合适取决于编码流程，不确定则用 identified。
 
+## L. 统计与结果报告常见搭配（语言层面，数值与显著性水平一律不动）
+41. the coefficient of family income is 0.083 → the coefficient on family income is 0.083 → 回归系数惯用 coefficient on / for。
+42. significant in the 1% level → significant at the 1% level → 显著性水平用 at。
+43. after controlling the parents' education → after controlling for parents' education → controlling for。
+44. the difference between A and B is significant on 5% → ... significant at the 5% level → 同 42。
+45. The R² of Column (2) is higher than Column (1) → ... higher than that of Column (1) → 比较对象应同类。
+
 使用说明：本库用于识别模式，不是替换表。每次替换都要回到台账核对数字、引用、术语与论断强度。

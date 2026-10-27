@@ -1,0 +1,789 @@
+{
+ "A": [
+  {
+   "case": "01",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10"
+   ],
+   "unfixed": [],
+   "n_issues": 10,
+   "strength_flags": [],
+   "edit_ratio": 0.333,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "02",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "2.9"
+   ],
+   "unfixed": [],
+   "n_issues": 9,
+   "strength_flags": [],
+   "edit_ratio": 0.144,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "03",
+   "preserve_lost": [
+    "\"create\""
+   ],
+   "checker_errors": [
+    "[quotes] 丢失/减少 ×1: create",
+    "[quotes] 新增/增加 ×1: creation"
+   ],
+   "fixed": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8"
+   ],
+   "unfixed": [],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.235,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "04",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4"
+   ],
+   "unfixed": [],
+   "n_issues": 4,
+   "strength_flags": [
+    "h1:hedge-lost"
+   ],
+   "edit_ratio": 0.265,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "05",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.094,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "06",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.252,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "07",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.19,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "08",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.23,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "09",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.184,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "10",
+   "preserve_lost": [
+    "one province"
+   ],
+   "checker_errors": [],
+   "fixed": [
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5",
+    "10.6",
+    "10.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.359,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "11",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.509,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  },
+  {
+   "case": "12",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "12.1",
+    "12.2",
+    "12.3",
+    "12.4",
+    "12.5",
+    "12.6",
+    "12.7",
+    "12.8"
+   ],
+   "unfixed": [],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.273,
+   "log_entries": 0,
+   "log_bad": null,
+   "log_cov": null
+  }
+ ],
+ "B1": [
+  {
+   "case": "01",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "1.1",
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10"
+   ],
+   "unfixed": [
+    "1.3"
+   ],
+   "n_issues": 10,
+   "strength_flags": [],
+   "edit_ratio": 0.231,
+   "log_entries": 10,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "02",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.7",
+    "2.8",
+    "2.9"
+   ],
+   "unfixed": [
+    "2.6"
+   ],
+   "n_issues": 9,
+   "strength_flags": [],
+   "edit_ratio": 0.066,
+   "log_entries": 12,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "03",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8"
+   ],
+   "unfixed": [],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.098,
+   "log_entries": 7,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "04",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4"
+   ],
+   "unfixed": [],
+   "n_issues": 4,
+   "strength_flags": [],
+   "edit_ratio": 0.059,
+   "log_entries": 4,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "05",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.03,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "06",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.103,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 0.941
+  },
+  {
+   "case": "07",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.055,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "08",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6"
+   ],
+   "unfixed": [
+    "8.1"
+   ],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.066,
+   "log_entries": 4,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "09",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6"
+   ],
+   "unfixed": [
+    "9.7"
+   ],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.077,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "10",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5",
+    "10.6"
+   ],
+   "unfixed": [
+    "10.7"
+   ],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.088,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "11",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.45,
+   "log_entries": 5,
+   "log_bad": [
+    "5"
+   ],
+   "log_cov": 0.974
+  },
+  {
+   "case": "12",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "12.1",
+    "12.2",
+    "12.5",
+    "12.6",
+    "12.7",
+    "12.8"
+   ],
+   "unfixed": [
+    "12.3",
+    "12.4"
+   ],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.079,
+   "log_entries": 5,
+   "log_bad": [],
+   "log_cov": 1.0
+  }
+ ],
+ "B2": [
+  {
+   "case": "01",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "1.1",
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10"
+   ],
+   "unfixed": [
+    "1.3"
+   ],
+   "n_issues": 10,
+   "strength_flags": [],
+   "edit_ratio": 0.231,
+   "log_entries": 10,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "02",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.7",
+    "2.8",
+    "2.9"
+   ],
+   "unfixed": [
+    "2.6"
+   ],
+   "n_issues": 9,
+   "strength_flags": [],
+   "edit_ratio": 0.066,
+   "log_entries": 12,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "03",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "3.8"
+   ],
+   "unfixed": [],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.098,
+   "log_entries": 7,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "04",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4"
+   ],
+   "unfixed": [],
+   "n_issues": 4,
+   "strength_flags": [],
+   "edit_ratio": 0.059,
+   "log_entries": 4,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "05",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.03,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "06",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.103,
+   "log_entries": 7,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "07",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.055,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "08",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6"
+   ],
+   "unfixed": [],
+   "n_issues": 6,
+   "strength_flags": [],
+   "edit_ratio": 0.078,
+   "log_entries": 5,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "09",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6"
+   ],
+   "unfixed": [
+    "9.7"
+   ],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.077,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "10",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5",
+    "10.6"
+   ],
+   "unfixed": [
+    "10.7"
+   ],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.088,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 1.0
+  },
+  {
+   "case": "11",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7"
+   ],
+   "unfixed": [],
+   "n_issues": 7,
+   "strength_flags": [],
+   "edit_ratio": 0.45,
+   "log_entries": 6,
+   "log_bad": [],
+   "log_cov": 0.974
+  },
+  {
+   "case": "12",
+   "preserve_lost": [],
+   "checker_errors": [],
+   "fixed": [
+    "12.1",
+    "12.2",
+    "12.5",
+    "12.6",
+    "12.7",
+    "12.8"
+   ],
+   "unfixed": [
+    "12.3",
+    "12.4"
+   ],
+   "n_issues": 8,
+   "strength_flags": [],
+   "edit_ratio": 0.079,
+   "log_entries": 5,
+   "log_bad": [],
+   "log_cov": 1.0
+  }
+ ]
+}
