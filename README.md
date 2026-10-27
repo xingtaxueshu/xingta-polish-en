@@ -103,4 +103,4 @@ python3 evals/score.py A B2                                    # 复现实验计
 
 ## 许可
 
-MIT，© 2026 星塔学术。见 [LICENSE](LICENSE)。
+MIT，© 2026 StarTower Academic。见 [LICENSE](LICENSE)。
