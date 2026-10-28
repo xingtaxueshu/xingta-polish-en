@@ -1,5 +1,9 @@
 # xingta-polish-en · 星塔学术英文润色 Skill
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**English summary.** `xingta-polish-en` is a fidelity-first agent skill for polishing the English of academic paragraphs written by Chinese-speaking humanities and social-science authors. It changes language only: arguments, data, citations, quotations and conclusions are preserved, and anything doubtful is flagged for the author instead of being "fixed". Each run produces the polished text, a numbered change list, a preservation audit, and questions for the author. The bundled experiment is a same-model self-evaluation on 12 self-written neutral paragraphs, not a blind review by real authors, so it does not show real submission outcomes. It does not promise to evade AI-detection or plagiarism tools. From 星塔学术 · StarTower Academic. [MIT License](LICENSE).
+
 > 面向中文人文社科作者的**保真优先**英文学术润色 Agent Skill。
 > 核心立场：**只润色语言，不改论点、数据、引文、结论**；看不准的地方标出来问作者，不替作者拍板。
 
@@ -46,10 +50,19 @@ LICENSE                     # MIT
 
 **Skill 目录方式（示例，路径按你的环境调整）**
 
+Claude Code：
+
 ```bash
-git clone <本仓库地址> ~/.claude/skills/xingta-polish-en     # Claude Code
-# 或复制到你所用工具的 skills 目录
+git clone https://github.com/xingtaxueshu/xingta-polish-en.git ~/.claude/skills/xingta-polish-en
 ```
+
+Codex：
+
+```bash
+git clone https://github.com/xingtaxueshu/xingta-polish-en.git ~/.agents/skills/xingta-polish-en
+```
+
+其他支持 Skill 的工具：把仓库复制到该工具的 skills 目录即可；也可以把 `SKILL.md` 当作系统提示使用。以上安装方式均未在每个环境里逐一实测，路径以你所用工具的文档为准。
 
 **仅用脚本**：只需 Python 3.9+，无第三方依赖。
 
@@ -100,6 +113,18 @@ python3 evals/score.py A B2                                    # 复现实验计
 - [Haojae/scipilot-writing-skill](https://github.com/Haojae/scipilot-writing-skill)（开始前逐项询问、脚本自检、修改日志的思路）
 
 本项目聚焦人文社科、保真优先与可核对的输出契约，与上述项目定位不同，不是它们的替代品或衍生版本。
+
+## 相关项目
+
+- [literature-review-skills](https://github.com/xingtaxueshu/literature-review-skills)：星塔学术的另一个开源项目，5 个文献综述 Agent Skills（收紧问题、拆模块、比较方法、梳理矛盾、定位研究空缺）。
+
+## 反馈
+
+使用中遇到问题或有建议，欢迎提交 [Issue（使用反馈）](https://github.com/xingtaxueshu/xingta-polish-en/issues/new/choose)；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。请不要在 Issue 中粘贴未发表稿件的全文或可识别个人的信息。
+
+## 关注我们
+
+微信公众号搜索 **“星塔学术”** 并关注，可以看到这个项目的使用演示与更新说明。官网：[www.xingta.cc](https://www.xingta.cc)
 
 ## 许可
 
